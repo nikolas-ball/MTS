@@ -14,9 +14,6 @@
 *_REMOTE_*.txt
 
 ### Images ###
-# JPEG
-*.jpg
-*.jpeg
 *.jpe
 *.jif
 *.jfif
@@ -44,9 +41,6 @@
 # Web P
 *.webp
 
-# Portable Network Graphics
-*.png
-
 # Animated Portable Network Graphics
 *.apng
 
@@ -57,12 +51,7 @@
 *.tiff
 *.tif
 
-# Scalable Vector Graphics
-*.svg
 *.svgz
-
-# Portable Document Format
-*.pdf
 
 # X BitMap
 *.xbm
@@ -71,8 +60,6 @@
 *.bmp
 *.dib
 
-# ICO
-*.ico
 
 # 3D Images
 *.3dm
@@ -83,10 +70,6 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
-Icon
-
 
 # Thumbnails
 ._*
