@@ -2305,6 +2305,10 @@ ul.social li a.fa-google-plus:hover {
   padding-top: 15px;
 }
 
+#synopsisParagraph {
+  padding: 10px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 505px) {
   #desktopOnlyHeader {
     display: none !important;
@@ -2339,6 +2343,12 @@ ul.social li a.fa-google-plus:hover {
   }
   #darkerContactSidebar a {
     text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #synopsisParagraph {
+    padding: 4px;
   }
 }
 
@@ -3041,7 +3051,7 @@ ul.social li a.fa-google-plus:hover {
   /* Banner */
 
   #banner {
-    padding: 6em 0;
+    padding: 3em 0;
     margin: 2em 0 0 0;
   }
 

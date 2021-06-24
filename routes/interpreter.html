@@ -85,7 +85,7 @@
               <section class="box" id="sideImageContact">
                 <div class="image featured">
                   <img
-                    src="../images/happyCoworkers.png"
+                    src="../images/lookingAtPC.png"
                     alt="Guaranteed Satisfaction"
                   />
                 </div>
@@ -104,7 +104,7 @@
 
                 <h3>Email</h3>
 
-                <p id="darkerContactSidebar">
+                <p id="darkerContactSidebar" style="word-wrap: break-word">
                   <strong>
                     <a href="mailto:info@midwesttranslationservices.com"
                       >info@MidwestTranslationServices.com</a
@@ -126,19 +126,16 @@
               <!-- Content -->
               <article class="box post">
                 <header>
-                  <h2>Request a Translation Quote</h2>
+                  <h2>Schedule an Interpreter</h2>
                   <p>
-                    We can take any document and translate it accurately into
-                    any of over 35 languages.
+                    All of our interpreters are either certified or
+                    professionally qualified and are ready to take the time and
+                    work with you anywhere in the world.
                   </p>
                 </header>
 
                 <section>
-                  <form
-                    action="https://formspree.io/f/xbjqkrok"
-                    method="POST"
-                    enctype="multipart/form-data"
-                  >
+                  <form action="https://formspree.io/f/mnqlzazv" method="POST">
                     <label>
                       Your Name or Organization Name:
                       <input
@@ -160,12 +157,12 @@
                       />
                     </label>
                     <label>
-                      Translation Needed From / Into:
+                      Which Language
                       <input
                         style="border: 2px solid #dddddd"
                         type="text"
-                        name="_LanguageFromTo"
-                        placeholder="English / Ukrainian"
+                        name="_LanguageNeeded"
+                        placeholder="Arabic"
                         required
                       />
                     </label>
@@ -185,25 +182,30 @@
                       />
                     </label>
                     <label>
-                      Special Formatting Needed:
-                      <textarea
-                        style="height: 5em; border: 2px solid #dddddd"
-                        name="_SpecialFormatting"
-                        placeholder="This document needs..."
-                      ></textarea>
+                      Law Firm / Medical Office Address:
+                      <input
+                        style="border: 2px solid #dddddd"
+                        type="text"
+                        name="_AddressWhereNeeded"
+                        placeholder="1234 Main St. Lexington, KY..."
+                      />
                     </label>
                     <label>
-                      Attach a File:
+                      Courtroom #:
                       <input
-                        type="file"
-                        name="upload"
-                        style="
-                          border: 2px solid #dddddd;
-                          border-radius: 5px;
-                          width: 100%;
-                          padding: 5px 0px 5px 15px;
-                          min-height: 2.5rem;
-                        "
+                        style="border: 2px solid #dddddd"
+                        type="text"
+                        name="_Courtroom"
+                        placeholder="34"
+                      />
+                    </label>
+                    <label>
+                      Case #:
+                      <input
+                        style="border: 2px solid #dddddd"
+                        type="text"
+                        name="_CaseNumber"
+                        placeholder="12"
                       />
                     </label>
                     <label>
@@ -218,7 +220,7 @@
                         placeholder="Optional"
                       ></textarea>
                     </label>
-                    <button type="submit">Request Translation Quote</button>
+                    <button type="submit">Request an Interpreter</button>
                   </form>
                 </section>
               </article>
