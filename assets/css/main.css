@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html,
 body,
 div,
@@ -1571,19 +1565,19 @@ form textarea {
 }
 
 form ::-webkit-input-placeholder {
-  color: #555 !important;
+  color: #8b8b8b !important;
 }
 
 form :-moz-placeholder {
-  color: #555 !important;
+  color: #8b8b8b !important;
 }
 
 form ::-moz-placeholder {
-  color: #555 !important;
+  color: #8b8b8b !important;
 }
 
 form :-ms-input-placeholder {
-  color: #555 !important;
+  color: #8b8b8b !important;
 }
 
 form ::-moz-focus-inner {
@@ -2295,7 +2289,7 @@ ul.social li a.fa-google-plus:hover {
 #banner header h3 {
   color: #fff;
   font-weight: 700;
-  font-size: 2.0em;
+  font-size: 2em;
   margin: 0 0 0.65em 0;
 }
 
@@ -2332,6 +2326,19 @@ ul.social li a.fa-google-plus:hover {
   }
   #banner {
     background-position: initial;
+  }
+}
+
+#darkerContactSidebar a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 980px) {
+  #sideImageContact {
+    margin-top: 50px;
+  }
+  #darkerContactSidebar a {
+    text-decoration: underline;
   }
 }
 
@@ -2509,7 +2516,7 @@ ul.social li a.fa-google-plus:hover {
   input,
   textarea,
   select {
-    font-size: 12pt;
+    font-size: 13pt;
   }
 }
 
@@ -2522,7 +2529,7 @@ ul.social li a.fa-google-plus:hover {
   input,
   textarea,
   select {
-    font-size: 11pt;
+    font-size: 13pt;
   }
 
   /* Section/Article */
@@ -2865,7 +2872,7 @@ ul.social li a.fa-google-plus:hover {
   input,
   textarea,
   select {
-    font-size: 11pt;
+    font-size: 13pt;
   }
 
   h2,
@@ -2873,7 +2880,7 @@ ul.social li a.fa-google-plus:hover {
   h4,
   h5,
   h6 {
-    font-size: 1.25em;
+    font-size: 1.3em;
   }
 
   /* Button */
