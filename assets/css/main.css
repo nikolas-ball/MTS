@@ -2315,6 +2315,10 @@ ul.social li a.fa-google-plus:hover {
   }
 }
 
+#mobileOnlyHeader {
+  margin-top: 17px;
+}
+
 @media screen and (min-width: 506px) {
   #mobileOnlyHeader {
     display: none !important;
