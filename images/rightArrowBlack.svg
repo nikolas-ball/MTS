@@ -1,0 +1,9 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 134" width="200" height="134">
+	<defs>
+		<image  width="200" height="134" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACGAQMAAACixFfBAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAAAAApWe5zwAAAAJ0Uk5TAP9bkSK1AAABSElEQVR4nM3XO47DIBgAYUtb5NjhaD6Kj+CSYmXCK9JGzIDWVdx+zcQx8LNtH0/c5Pm5TB7JJagcKqeKxT3Sr4rFZZG4LBKXReKySFwWicsicUU4rgjHzYXjinBcEf7Di3BclV0F46pgXBWMq4JxVfCdNqG4JhTXhOKaUFwTimtCcV0grgvEdYG4LhDXBeK6QNxbgsoY95a6VJ4JnqhS4whaHEtQOVROlahyqSSXoLKrHCpR5VJJLkFlVzlUosp1Q9IXy53f42/H36j/C/7P3fhC/KvyL9G/Xv/ib6wsX42+gn3V+04x35FQxs33Y+f7527pO+wA653cd38/Mca09ck0wvIE9FPTT1pIW57oAKvJwacNn1AobTUJBROfuHxK88kO0xaCafNJ1adbn4h9iua0+bTOML0V+E3Cbx+SNr3lCExuU39vYC+J+uo4b36SzgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="img1" href="#img1" x="0" y="0" />
+</svg>
