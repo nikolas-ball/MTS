@@ -2301,6 +2301,38 @@ ul.social li a.fa-google-plus:hover {
   font-size: 1.5em;
 }
 
+#bannerTY {
+  background: #cce8f4 url("../../images/pattern.jpeg");
+  background-position: center;
+  background-size: 100% auto;
+  text-align: center;
+  position: relative;
+  padding: 8em 0;
+  margin: 4em 0 0 0;
+}
+
+#bannerTY header {
+  background-color: rgba(34, 30, 31, 0.9);
+  display: inline-block;
+  padding: 2.5em 5em;
+  border-radius: 5px;
+}
+
+#bannerTY header h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  margin: 0 0 0.65em 0;
+}
+
+#bannerTY header p {
+  color: #d52349;
+  padding: 0;
+  font-style: normal;
+  margin: 0;
+  font-size: 1.5em;
+}
+
 #orderButton {
   padding-top: 15px;
 }
@@ -2309,9 +2341,17 @@ ul.social li a.fa-google-plus:hover {
   padding: 10px;
 }
 
+#certifiedQuicklyMessage {
+  font-weight: 700;
+}
+
 @media screen and (min-width: 0px) and (max-width: 505px) {
   #desktopOnlyHeader {
     display: none !important;
+  }
+  #certifiedQuicklyMessage {
+    font-weight: 700;
+    padding: 10px 0px 10px 0px !important;
   }
 }
 
@@ -2359,6 +2399,7 @@ ul.social li a.fa-google-plus:hover {
 #certifiedMessage {
   font-weight: 700;
 }
+
 /* Intro */
 
 #intro {
@@ -3068,6 +3109,27 @@ ul.social li a.fa-google-plus:hover {
   }
 
   #banner header p {
+    font-size: 1.2em;
+  }
+
+  #bannerTY {
+    padding: 3em 0;
+    margin: 2em 0 0 0;
+  }
+
+  #bannerTY header {
+    padding: 1.5em 1em 1.5em 1em;
+    display: block;
+    border-radius: 0;
+  }
+
+  #bannerTY header h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0 0 0.25em 0;
+  }
+
+  #bannerTY header p {
     font-size: 1.2em;
   }
 
