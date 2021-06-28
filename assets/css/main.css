@@ -1729,7 +1729,7 @@ button,
   background-color: #fff;
   color: rgb(36, 33, 34);
   font-weight: 700;
-  line-height: 40px;
+  line-height: 30px;
   outline: 0;
   text-align: center;
   -moz-transition: background-color 0.25s ease-in-out;
@@ -1803,8 +1803,8 @@ button.large,
 }
 
 .buttonTY {
-  font-size: 1.5em;
-  padding: 0.75em 1.5em 0.75em 1.5em;
+  font-size: 1.4em;
+  padding: 0.7em 1.4em 0.7em 1.4em;
 }
 
 /* Image */
@@ -2364,6 +2364,10 @@ ul.social li a.fa-google-plus:hover {
   padding-top: 15px;
 }
 
+#orderButton h3:hover {
+  color: #dcdcdc !important;
+}
+
 #synopsisParagraph {
   padding: 10px;
 }
@@ -2373,13 +2377,22 @@ ul.social li a.fa-google-plus:hover {
   color: #55ff00 !important;
 }
 
+@media screen and (min-width: 0px) and (max-width: 425px) {
+  #certifiedQuicklyMessage {
+    padding: 5px !important;
+    font-size: 16px !important;
+  }
+  #certifiedMessage {
+    padding: 0px 7px 0px 7px !important;
+  }
+  #guaranteedMessage {
+    padding: 0px 7px 0px 7px !important;
+  }
+}
+
 @media screen and (min-width: 0px) and (max-width: 505px) {
   #desktopOnlyHeader {
     display: none !important;
-  }
-  #certifiedQuicklyMessage {
-    font-weight: 700;
-    padding: 10px 5px 10px 5px !important;
   }
 }
 
@@ -2978,7 +2991,7 @@ ul.social li a.fa-google-plus:hover {
   }
   .buttonTY {
     font-size: 1.1em;
-    padding: 0.65em 1.5em 0.65em 1.5em;
+    padding: 0.6em 1.25em 0.6em 1.25em;
   }
 
   /* Actions */
