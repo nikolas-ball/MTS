@@ -2329,9 +2329,9 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #bannerTY {
-  background: #cce8f4 url("../../images/thanksHD.png");
+  background: url("../../images/thanksHD.jpg") no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: auto 100%;
   text-align: center;
   position: relative;
   padding: 8em 0;
@@ -2341,7 +2341,7 @@ ul.social li a.fa-google-plus:hover {
 #bannerTY header {
   background-color: rgba(34, 30, 31, 0.9);
   display: inline-block;
-  padding: 2.5em 5em;
+  padding: .75em;
   border-radius: 5px;
 }
 
@@ -3167,9 +3167,8 @@ ul.social li a.fa-google-plus:hover {
   }
 
   #bannerTY header {
-    padding: 1.5em 1em 1.5em 1em;
-    display: block;
-    border-radius: 0;
+    padding: .75em;
+    border-radius: 5px;
   }
 
   #bannerTY header h2 {
