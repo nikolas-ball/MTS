@@ -3194,3 +3194,35 @@ ul.social li a.fa-google-plus:hover {
     padding: 40px 0 20px 0;
   }
 }
+
+.specialImagesHolderResourcesPage {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialImagesHolderResourcesPageImage0 {
+ padding: 0px 50px 0px 50px;
+}
+
+.specialImagesHolderResourcesPageImage1 {
+ padding: 0px 50px 0px 50px;
+}
+
+@media screen and (max-width: 737px) {
+  .specialImagesHolderResourcesPage {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .specialImagesHolderResourcesPageImage0 {
+    padding: 0px 15px 50px 15px;
+   }
+  .specialImagesHolderResourcesPageImage1 {
+    padding: 0px 15px 0px 15px;
+   }
+}
