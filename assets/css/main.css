@@ -2188,7 +2188,7 @@ ul.social li a.fa-google-plus:hover {
   position: relative;
   background: #ffffff;
   border-bottom: solid 1px #ccc;
-  padding: 5em 0 4em 0;
+  padding: 5em 0 3em 0;
   text-align: center;
 }
 
@@ -2329,9 +2329,9 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #bannerTY {
-  background: #cce8f4 url("../../images/pattern.jpeg");
+  background: url("../../images/thanksHD.jpg") no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  background-size: auto 100%;
   text-align: center;
   position: relative;
   padding: 8em 0;
@@ -2341,7 +2341,7 @@ ul.social li a.fa-google-plus:hover {
 #bannerTY header {
   background-color: rgba(34, 30, 31, 0.9);
   display: inline-block;
-  padding: 2.5em 5em;
+  padding: .75em;
   border-radius: 5px;
 }
 
@@ -2739,7 +2739,7 @@ ul.social li a.fa-google-plus:hover {
   /* Header */
 
   #header {
-    padding: 3.5em 0 3em 0;
+    padding: 3.5em 0 2em 0;
   }
 
   /* Nav */
@@ -3162,14 +3162,13 @@ ul.social li a.fa-google-plus:hover {
   }
 
   #bannerTY {
-    padding: 3em 0;
-    margin: 2em 0 0 0;
+    padding: 8em 0;
+    margin: 0em 0 -36px 0;
   }
 
   #bannerTY header {
-    padding: 1.5em 1em 1.5em 1em;
-    display: block;
-    border-radius: 0;
+    padding: .75em;
+    border-radius: 5px;
   }
 
   #bannerTY header h2 {
@@ -3192,5 +3191,71 @@ ul.social li a.fa-google-plus:hover {
 
   #footer {
     padding: 40px 0 20px 0;
+  }
+}
+
+.specialImagesHolderResourcesPage {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialImagesHolderResourcesPageImage0 {
+  padding: 0px 50px 0px 50px;
+}
+
+.specialImagesHolderResourcesPageImage1 {
+  padding: 0px 50px 0px 50px;
+}
+
+@media screen and (max-width: 737px) {
+  .specialImagesHolderResourcesPage {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .specialImagesHolderResourcesPageImage0 {
+    padding: 0px 15px 50px 15px;
+  }
+  .specialImagesHolderResourcesPageImage1 {
+    padding: 0px 15px 0px 15px;
+  }
+}
+
+.specialImagesHolderHomePage {
+  border-top: solid 2px #ddd;
+  margin: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialImagesHolderHomePageImage0 {
+  padding: 0px 50px 0px 50px;
+}
+
+.specialImagesHolderHomePageImage1 {
+  padding: 0px 50px 0px 50px;
+}
+
+@media screen and (max-width: 737px) {
+  .specialImagesHolderHomePage {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .specialImagesHolderHomePageImage0 {
+    padding: 0px 15px 50px 15px;
+  }
+  .specialImagesHolderHomePageImage1 {
+    padding: 0px 15px 0px 15px;
   }
 }
