@@ -2341,7 +2341,7 @@ ul.social li a.fa-google-plus:hover {
 #bannerTY header {
   background-color: rgba(34, 30, 31, 0.9);
   display: inline-block;
-  padding: .75em;
+  padding: 0.75em;
   border-radius: 5px;
 }
 
@@ -2372,16 +2372,7 @@ ul.social li a.fa-google-plus:hover {
   padding: 10px;
 }
 
-#certifiedQuicklyMessage {
-  font-weight: 700;
-  color: #55ff00 !important;
-}
-
 @media screen and (min-width: 0px) and (max-width: 425px) {
-  #certifiedQuicklyMessage {
-    padding: 5px !important;
-    font-size: 16px !important;
-  }
   #certifiedMessage {
     padding: 0px 7px 0px 7px !important;
   }
@@ -3167,7 +3158,7 @@ ul.social li a.fa-google-plus:hover {
   }
 
   #bannerTY header {
-    padding: .75em;
+    padding: 0.75em;
     border-radius: 5px;
   }
 
