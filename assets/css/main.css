@@ -2361,12 +2361,36 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #orderButton {
-  padding-top: 15px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  text-align: center;
 }
 
 #orderButton h3:hover {
   color: #dcdcdc !important;
 }
+
+#orderButtonCTA {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d52349;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#orderButtonCTA:hover {
+  background-color: #b71c3c;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
 
 #synopsisParagraph {
   padding: 10px;
