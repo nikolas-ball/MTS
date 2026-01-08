@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Midwest Translation Services</title>
+    <title>Remote Interpreting - Midwest Translation Services</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <meta name="title" content="Midwest Translation Services" />
+    <meta
+      name="title"
+      content="Remote Interpreting - Midwest Translation Services"
+    />
     <meta
       name="description"
-      content="The best interpreting and translation services in the Midwest. We provide interpreting services in many world languages. We are committed to ensuring accurate and professional services."
+      content="Fast and reliable remote interpreting services. Connect with qualified interpreters via phone or video. Available for immediate scheduling and less common languages."
     />
     <meta
       name="keywords"
-      content="Court certified interpreters Louisville KY, court certified interpreters Indianapolis, certified translation Louisville KY, notarized document translation KY, midwest translation services, best translation near me, best interpreter near me, request translator ohio, request interpreter kentucky, request translator kentucky, request interpreter ohio, request translator illinois, request interpreter illinois, indiana order translation services, order interpreter indiana, best interpreter, best translation, best translation services in the midwest, midwest translation, kentucky translation, tennessee translation, ohio translation"
+      content="remote interpreting, phone interpreting, video interpreting, virtual interpreting, on-demand interpreting, midwest interpreting services"
     />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -30,53 +33,6 @@
       type="image/png"
       href="../images/GlobeLarge.png"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps.css"
-    />
-    <style>
-      .map {
-        height: 500px;
-        width: 100%;
-      }
-      .marker-icon {
-        background-position: center;
-        background-size: 44px 44px;
-        border-radius: 50%;
-        height: 44px;
-        left: 7.5px;
-        position: absolute;
-        text-align: center;
-        top: 8px;
-        transform: rotate(45deg);
-        width: 44px;
-      }
-      .marker {
-        height: 60px;
-        width: 60px;
-      }
-      .marker-content {
-        background: #c30b82;
-        border-radius: 50% 50% 50% 0;
-        height: 60px;
-        left: 50%;
-        margin: -15px 0 0 -15px;
-        position: absolute;
-        top: 50%;
-        transform: rotate(-45deg);
-        width: 60px;
-      }
-      .marker-content::before {
-        background: #ffffff;
-        border-radius: 50%;
-        content: "";
-        height: 46px;
-        margin: 7px 0 0 7px;
-        position: absolute;
-        width: 46px;
-      }
-    </style>
   </head>
   <body class="homepage is-preload">
     <div id="page-wrapper">
@@ -108,7 +64,7 @@
         <nav id="nav">
           <ul>
             <li><a href="../index.html">Home</a></li>
-            <li>
+            <li class="current">
               <a href="./translation.html">Services</a>
               <ul>
                 <li>
@@ -143,7 +99,7 @@
             </li>
             <li><a href="./careers.html">Careers</a></li>
             <li><a href="./clients.html">Clients</a></li>
-            <li class="current"><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
             <li>
               <a href="./resources.html">Resources</a>
               <ul>
@@ -155,234 +111,173 @@
           </ul>
         </nav>
       </section>
+
+      <!-- Main -->
       <section id="main">
         <div class="container">
-          <!-- Content -->
-          <article class="box post">
-            <div class="container">
-              <div class="row">
-                <div
-                  class="col-7 col-12-medium col-12-small"
-                  style="margin-bottom: 30px"
-                >
-                  <section>
-                    <header style="margin-bottom: 1.1em">
-                      <h2 style="font-size: 29px">Contact Us Anytime</h2>
-                    </header>
-                    <form
-                      action="https://formspree.io/f/xleanznl"
-                      method="POST"
-                    >
-                      <input type="text" name="_gotcha" style="display: none" />
-                      <label>
-                        Your Email:
-                        <input
-                          style="border: 2px solid #dddddd"
-                          type="text"
-                          name="_replyto"
-                          placeholder="Your Contact Email"
-                          required
-                        />
-                      </label>
-                      <label>
-                        Your Phone Number:
-                        <input
-                          style="border: 2px solid #dddddd"
-                          type="text"
-                          name="_contactPhone"
-                          placeholder="(123) 456-7890"
-                          required
-                        />
-                      </label>
-                      <label>
-                        Choose Your Requested Service:
-                        <select
-                          style="border: 2px solid #dddddd"
-                          type="text"
-                          name="_serviceRequested"
-                          placeholder="Arabic"
-                        >
-                          <option
-                            value="Translation"
-                            name="_RequestTranslation"
-                          >
-                            Request a Translation Quote
-                          </option>
-                          <option
-                            value="Interpreter"
-                            name="_ScheduleInterpreter"
-                          >
-                            Schedule an Interpreter
-                          </option>
-                          <option value="Class" name="_ScheduleClass">
-                            Schedule a Class
-                          </option>
-                          <option
-                            value="Other"
-                            name="_OtherUnknownServiceNeeded"
-                          >
-                            Other
-                          </option>
-                        </select>
-                      </label>
-                      <label>
-                        Date Needed:
-                        <input
-                          style="
-                            border: 2px solid #dddddd;
-                            border-radius: 5px;
-                            width: 100%;
-                            padding: 5px 0px 5px 15px;
-                            min-height: 2.5rem;
-                            background-color: white;
-                          "
-                          name="_DateNeeded"
-                          type="date"
-                          required
-                        />
-                      </label>
-                      <label>
-                        Additional Information:
-                        <textarea
-                          style="
-                            height: 10em;
-                            margin-bottom: 30px;
-                            border: 2px solid #dddddd;
-                          "
-                          name="_UserMessage"
-                          placeholder="Tell us more about what you need!"
-                          required
-                        ></textarea>
-                      </label>
-                      <button type="submit">Send Message</button>
-                    </form>
-                  </section>
+          <div class="row">
+            <div class="col-4 col-12-medium">
+              <!-- Sidebar -->
+              <section class="box" id="sideImageContact">
+                <div class="image featured">
+                  <img
+                    src="../images/remote_service.jpg"
+                    alt="Remote Interpreting"
+                  />
                 </div>
 
-                <div
-                  class="col-5 col-12-medium col-12-small"
-                  style="margin-bottom: 30px"
-                >
-                  <section>
-                    <header>
-                      <h2 style="font-size: 29px">Connect With Us</h2>
-                    </header>
-                    <ul class="social">
-                      <li>
-                        <a
-                          class="icon brands fa-facebook-f"
-                          href="https://facebook.com/OhioTranslationServices"
-                          ><span class="label">Facebook</span></a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          class="icon brands fa-x-twitter"
-                          href="https://twitter.com/OhioTranslators"
-                          ><span class="label">Twitter</span></a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          class="icon solid fa-map-marker-alt"
-                          href="https://goo.gl/maps/FKQurYZvGGLgiFtUA"
-                          ><span class="label">Google Maps</span></a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          class="icon brands fa-linkedin"
-                          href="https://www.linkedin.com/company/midwest-translation-services/"
-                          ><span class="label">Linked In</span></a
-                        >
-                      </li>
-                    </ul>
-                    <ul class="contact">
-                      <li>
-                        <h3>Address</h3>
-                        <p style="font-weight: 700">
-                          <a href="https://goo.gl/maps/FKQurYZvGGLgiFtUA">
-                            Midwest Translation Services, LLC<br />
-                            6844 Bardstown Rd, Unit #2125<br />
-                            Louisville, KY 40291</a
-                          >
-                        </p>
-                      </li>
-                      <li>
-                        <h3>Mail</h3>
-                        <p style="font-weight: 700; word-wrap: break-word">
-                          <a href="mailto:info@midwesttranslationservices.com"
-                            >info@MidwestTranslationServices.com</a
-                          >
-                        </p>
-                      </li>
-                      <li>
-                        <h3>Phone</h3>
-                        <p style="font-weight: 700">
-                          <a href="tel:6142547328">(614) 254-7328</a>
-                        </p>
-                      </li>
-                    </ul>
-                  </section>
-                </div>
-              </div>
+                <h3>Quick Contact</h3>
+
+                <p id="darkerContactSidebar">
+                  <strong>
+                    <a href="https://maps.app.goo.gl/ynWoxktbr9Hhiirk8">
+                      Midwest Translation Services, LLC<br />
+                      6844 Bardstown Rd., # 2125<br />
+                      Louisville, KY 40291</a
+                    ></strong
+                  >
+                </p>
+
+                <h3>Email</h3>
+
+                <p style="word-wrap: break-word" id="darkerContactSidebar">
+                  <strong>
+                    <a href="mailto:info@MidwestTranslationServices.com"
+                      >info@MidwestTranslationServices.com</a
+                    ></strong
+                  >
+                </p>
+
+                <h3>Phone</h3>
+
+                <p id="darkerContactSidebar">
+                  <strong><a href="tel:6142547328">(614) 254-7328</a></strong>
+                </p>
+                <footer>
+                  <a href="./contact.html" class="button alt">Contact Us</a>
+                </footer>
+              </section>
             </div>
+            <div class="col-8 col-12-medium imp-medium">
+              <!-- Content -->
+              <article class="box post">
+                <header>
+                  <h2>Remote Interpreting Services</h2>
+                  <p>
+                    Connect with qualified interpreters instantly via phone or
+                    video
+                  </p>
+                </header>
 
-            <section>
-              <header>
-                <h2 style="font-size: 29px">
-                  Conveniently Based in Northern KY
-                </h2>
-              </header>
-              <div id="map" class="map"></div>
-              <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.14.0/maps/maps-web.min.js"></script>
-              <script
-                type="text/javascript"
-                src="../assets/js/mobile-or-tablet.js"
-              ></script>
-              <script>
-                tt.setProductInfo("Midwest Translation Services", "1.0");
-                var map = tt.map({
-                  key: "ntGHGwXLnI05hOj84wUR7U7SAoZsKZu4",
-                  container: "map",
-                  dragPan: !isMobileOrTablet(),
-                  center: [-85.588125, 38.146692],
-                  zoom: 12,
-                });
-                map.addControl(new tt.FullscreenControl());
-                map.addControl(new tt.NavigationControl());
+                <section>
+                  <h3>Why Choose Remote Interpreting?</h3>
+                  <p>
+                    Remote interpreting allows people to connect more quickly
+                    than ever before. In today's fast-paced world, it's a relief
+                    to begin communicating effectively within seconds. Phone or
+                    video interpreting may be the right choice for you and your
+                    clients:
+                  </p>
 
-                function createMarker(icon, position, color, popupText) {
-                  var markerElement = document.createElement("div");
-                  markerElement.className = "marker";
+                  <ul>
+                    <li>
+                      <strong>When an interpreter is needed immediately</strong>
+                    </li>
+                    <li>
+                      <strong>For making reminder calls</strong> that help
+                      reduce no-show appointments
+                    </li>
+                    <li>
+                      <strong>In rural areas</strong> where qualified local
+                      interpreters are limited
+                    </li>
+                    <li><strong>When social distancing is required</strong></li>
+                    <li>
+                      <strong>When you need less common languages,</strong>
+                      including Indigenous languages from Mexico and Guatemala
+                      (with advance scheduling)
+                    </li>
+                    <li>
+                      <strong
+                        >To help reduce interpreter travel time, costs,</strong
+                      >
+                      and minimum fees
+                    </li>
+                  </ul>
 
-                  var markerContentElement = document.createElement("div");
-                  markerContentElement.className = "marker-content";
-                  markerContentElement.style.backgroundColor = color;
-                  markerElement.appendChild(markerContentElement);
+                  <h3>How It Works</h3>
+                  <p>
+                    Our remote interpreting service is simple and efficient.
+                    Choose between:
+                  </p>
+                  <ul>
+                    <li>
+                      <strong>Phone Interpreting:</strong> Quick connections for
+                      immediate communication needs
+                    </li>
+                    <li>
+                      <strong>Video Interpreting:</strong> Face-to-face
+                      interaction with video capability for more personal
+                      connections
+                    </li>
+                  </ul>
 
-                  var iconElement = document.createElement("div");
-                  iconElement.className = "marker-icon";
-                  iconElement.style.backgroundImage =
-                    "url(../images/LogoGlobe.svg)";
-                  markerContentElement.appendChild(iconElement);
+                  <h3>Interpreter Qualifications</h3>
+                  <p>
+                    <em
+                      >*A qualified interpreter is someone who has earned an
+                      entry-level certificate through an accredited organization
+                      and has demonstrated proficiency in English and all
+                      working languages through diplomas and/or testing.</em
+                    >
+                  </p>
+                  <p>
+                    We work ONLY with qualified/certified interpreters. We
+                    reserve the right to cancel video meetings should
+                    interpreter services not match with our needs.
+                  </p>
 
-                  var popup = new tt.Popup({ offset: 15 }).setHTML(popupText);
-                  new tt.Marker({ element: markerElement, anchor: "bottom" })
-                    .setLngLat(position)
-                    .setPopup(popup)
-                    .addTo(map);
-                }
+                  <h3>Existing Clients</h3>
+                  <p>
+                    If you are an existing client and need on-demand
+                    interpretation services, please dial our hotline. Enter your
+                    PIN and choose your language.
+                  </p>
 
-                createMarker(
-                  "accident.colors-white.svg",
-                  [-85.588125, 38.146692],
-                  "#c4374d",
-                  '<div style="font-size: 16px; font-weight: 700;"><p>Midwest Translation Services, LLC </p></div><br /><div style="margin: -35px 0px -35px 0px; font-size: 14px; font-weight: 400;"><p>6844 Bardstown Rd-Unit #2125,<br />Louisville, KY 40291</p></div>'
-                );
-              </script>
-            </section>
-          </article>
+                  <h3>Expansion Opportunities</h3>
+                  <p>
+                    Currently we are looking to expand medical (primarily
+                    onsite) and legal (onsite/virtual) interpreting in the state
+                    of Kentucky and beyond. We work ONLY with
+                    qualified/certified interpreters.
+                  </p>
+
+                  <h3>Get Started Today</h3>
+                  <p>
+                    For scheduling inquiries or to set up your remote
+                    interpreting service, please contact us:
+                  </p>
+                  <ul>
+                    <li>Call or text: <strong>(614) 254-7328</strong></li>
+                    <li>
+                      Email:
+                      <strong
+                        ><a href="mailto:info@midwesttranslationservices.com"
+                          >info@midwesttranslationservices.com</a
+                        ></strong
+                      >
+                    </li>
+                  </ul>
+
+                  <footer style="margin-top: 30px">
+                    <a href="./contact.html" class="button"
+                      >Schedule Your Interpreter Now</a
+                    >
+                  </footer>
+                </section>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
 

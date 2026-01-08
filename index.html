@@ -20,6 +20,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
     <link rel="shortcut icon" type="image/png" href="images/GlobeLarge.png" />
   </head>
@@ -57,7 +61,7 @@
               <a href="routes/translation.html">Services</a>
               <ul>
                 <li>
-                  <a href="routes/translation.html">Translators</a>
+                  <a href="routes/translation.html">Translation</a>
                   <ul>
                     <li>
                       <a href="routes/translation.html">Request a quote</a>
@@ -65,7 +69,17 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="routes/interpreter.html">Interpreters</a>
+                  <a href="routes/remote-interpreting.html"
+                    >Remote Interpreting</a
+                  >
+                  <ul>
+                    <li>
+                      <a href="routes/remote-interpreting.html">Schedule now</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="routes/interpreter.html">In-Person Interpreting</a>
                   <ul>
                     <li>
                       <a href="routes/interpreter.html"
@@ -85,36 +99,134 @@
             <li><a href="routes/careers.html">Careers</a></li>
             <li><a href="routes/clients.html">Clients</a></li>
             <li><a href="routes/contact.html">Contact Us</a></li>
-            <li><a href="routes/resources.html">Resources</a></li>
+            <li>
+              <a href="routes/resources.html">Resources</a>
+              <ul>
+                <li><a href="routes/resources.html">Overview</a></li>
+                <li><a href="routes/privacy-policy.html">Privacy Policy</a></li>
+                <li>
+                  <a href="routes/company-policies.html">Company Policies</a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </nav>
+
+        <!-- Remote Services Banner -->
+        <section
+          style="
+            background: linear-gradient(
+              135deg,
+              rgba(0, 102, 204, 0.18) 0%,
+              rgba(0, 102, 204, 0.12) 100%
+            );
+            border-left: 5px solid #0066cc;
+            border-radius: 8px;
+            padding: 25px 35px;
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 20px;
+            margin-bottom: 0;
+          "
+        >
+          <h3
+            style="
+              color: #0066cc;
+              font-size: 1.2em;
+              margin: 0 0 10px 0;
+              font-weight: 700;
+            "
+          >
+            🌐 Remote Interpreting Services Available Now
+          </h3>
+          <p
+            style="
+              font-size: 0.95em;
+              line-height: 1.6;
+              color: #333;
+              margin: 0 0 15px 0;
+            "
+          >
+            Get professional interpreting from anywhere. Secure, fast, and
+            available for legal, medical, business, and community needs.
+          </p>
+          <div
+            style="
+              display: flex;
+              flex-wrap: wrap;
+              gap: 12px;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <a
+              href="./routes/remote-interpreting.html"
+              style="
+                color: #0066cc;
+                text-decoration: none;
+                font-weight: 600;
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                transition: all 0.3s;
+                font-size: 0.95em;
+              "
+            >
+              <span>→</span> Learn More
+            </a>
+            <a
+              href="tel:6142547328"
+              style="
+                color: #0066cc;
+                text-decoration: none;
+                font-weight: 600;
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                transition: all 0.3s;
+                font-size: 0.95em;
+              "
+            >
+              <span>📞</span> Call Now
+            </a>
+            <a
+              href="mailto:info@midwesttranslationservices.com"
+              style="
+                color: #0066cc;
+                text-decoration: none;
+                font-weight: 600;
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                transition: all 0.3s;
+                font-size: 0.95em;
+              "
+            >
+              <span>✉️</span> Email Us
+            </a>
+          </div>
+        </section>
 
         <!-- Banner -->
         <section id="banner">
           <header>
-            <p id="certifiedMessage">
+            <p id="certifiedMessage" style="color: white">
               High Quality Translation Services You Can Trust
             </p>
-            <div
-              id="orderButton"
-              style="
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-              "
-            >
-              <h3>
-                <a href="routes/translation.html"
-                  >Order Services For Any Major Language Today</a
-                ><img
-                  id="desktopOnlyImage"
+            <div id="orderButton">
+              <a href="routes/translation.html" id="orderButtonCTA">
+                Order Services for Any Major Language
+                <img
                   src="./images/rightArrow.svg"
-                  style="height: 30px; padding: 10px 0px 0px 15px"
+                  alt="arrow"
+                  style="height: 24px; margin-left: 12px"
                 />
-              </h3>
+              </a>
             </div>
-            <p id="guaranteedMessage">Satisfaction Guaranteed</p>
+            <p id="guaranteedMessage" style="color: white; margin-top: 20px">
+              Satisfaction Guaranteed
+            </p>
           </header>
         </section>
 
@@ -186,14 +298,14 @@
           <div class="specialImagesHolderHomePage">
             <div class="image specialImagesHolderHomePageImage0">
               <img
-                src="../images/najitnajit.png"
+                src="./images/najitnajit.png"
                 alt="Proud Member of Najit"
                 title="We are a Proud Member of Najit"
               />
             </div>
             <div class="image specialImagesHolderHomePageImage1">
               <img
-                src="../images/ATAmember.png"
+                src="./images/ATAmember.png"
                 alt="Proud Member of the ATA"
                 title="We are a Proud Member of the ATA"
               />
@@ -207,17 +319,89 @@
         <div class="container">
           <div class="row">
             <div class="col-8 col-12-medium">
-              <section>
-                <header>
-                  <h2 style="font-size: 29px">Who We Are</h2>
+              <section
+                style="
+                  background-color: #f5f5f5;
+                  background: linear-gradient(
+                      135deg,
+                      rgba(0, 102, 204, 0.06) 0%,
+                      rgba(0, 82, 163, 0.06) 100%
+                    ),
+                    #f5f5f5;
+                  border-left: 5px solid #0066cc;
+                  border-radius: 8px;
+                  padding: 35px;
+                  margin-bottom: 40px;
+                "
+              >
+                <header style="margin-bottom: 25px">
+                  <h2
+                    style="
+                      color: #0066cc;
+                      font-size: 1.8em;
+                      margin: 0;
+                      font-weight: 700;
+                    "
+                  >
+                    Our Mission
+                  </h2>
                 </header>
-                <h4>Our Mission</h4>
-                <p>
-                  <strong><em>Midwest Translation Services, LLC</em></strong
-                  >’s mission is to provide superior language services for
-                  companies and individual clients.
+                <p
+                  style="
+                    font-size: 1.1em;
+                    line-height: 1.9;
+                    color: #1a1a1a;
+                    margin: 0;
+                    font-weight: 500;
+                  "
+                >
+                  We strive to create positive outcomes by closing communication
+                  gaps. We provide high-quality, cost-effective, and innovative
+                  language solutions for limited-English speakers and the
+                  professionals who support them.
                 </p>
+                <footer
+                  style="
+                    margin-top: 25px;
+                    padding-top: 20px;
+                    border-top: 1px solid rgba(0, 102, 204, 0.2);
+                    display: flex;
+                    gap: 25px;
+                    flex-wrap: wrap;
+                  "
+                >
+                  <a
+                    href="routes/privacy-policy.html"
+                    style="
+                      color: #0066cc;
+                      text-decoration: none;
+                      font-weight: 600;
+                      display: inline-flex;
+                      align-items: center;
+                      gap: 8px;
+                      transition: all 0.3s;
+                    "
+                  >
+                    <span>→</span> Privacy Policy
+                  </a>
+                  <a
+                    href="routes/company-policies.html"
+                    style="
+                      color: #0066cc;
+                      text-decoration: none;
+                      font-weight: 600;
+                      display: inline-flex;
+                      align-items: center;
+                      gap: 8px;
+                      transition: all 0.3s;
+                    "
+                  >
+                    <span>→</span> Company Policies
+                  </a>
+                </footer>
+              </section>
 
+              <section>
                 <h4>Our Values</h4>
                 <p>
                   Strive for excellence. Encourage understanding of various
@@ -369,14 +553,14 @@
                   </li>
                   <li>
                     <a
-                      class="icon brands fa-twitter"
+                      class="icon brands fa-x-twitter"
                       href="https://twitter.com/OhioTranslators"
                       ><span class="label">Twitter</span></a
                     >
                   </li>
                   <li>
                     <a
-                      class="icon brands fa-tripadvisor"
+                      class="icon solid fa-map-marker-alt"
                       href="https://goo.gl/maps/FKQurYZvGGLgiFtUA"
                       ><span class="label">Google Maps</span></a
                     >
@@ -410,7 +594,7 @@
                   </li>
                   <li>
                     <h3>Phone</h3>
-                    <p><a href="tel:7402551585">(740) 255-1585</a></p>
+                    <p><a href="tel:6142547328">(614) 254-7328</a></p>
                   </li>
                 </ul>
               </section>
@@ -461,6 +645,11 @@
                     <a href="routes/translation.html">Request a Quote</a>
                   </li>
                   <li>
+                    <a href="routes/remote-interpreting.html"
+                      >Remote Interpreting</a
+                    >
+                  </li>
+                  <li>
                     <a href="routes/interpreter.html"
                       >Schedule an Interpreter</a
                     >
@@ -482,7 +671,7 @@
               <!-- Copyright -->
               <div id="copyright">
                 <ul class="links">
-                  <li>&copy; 2024 Midwest Translation Services, LLC</li>
+                  <li>&copy; 2026 Midwest Translation Services, LLC</li>
                 </ul>
               </div>
             </div>
